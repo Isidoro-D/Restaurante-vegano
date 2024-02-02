@@ -1,0 +1,68 @@
+h1, h2, h3 {
+    font-family: 'Rancho';
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+h4, h5, h6 {
+    font-family: 'Josefin Sans';
+    text-align: center;
+    color: black;
+}
+
+p, li, a {
+    font-family: 'Libre Franklin';
+    color: #404040;
+}
+
+/*------------------*/
+/*---- TOP BAR ----*/
+/*----------------*/
+
+nav.menu ul {
+    font-size: 20px;
+    color: black;
+    list-style: none;
+}
+
+nav.menu ul li {
+    cursor: pointer;
+}
+
+nav.menu ul h1 {
+    font-size: 96px;
+    font-weight: 300;
+}
+
+/*---------------------*/
+/*---- FIRST-PAGE ----*/
+/*--------------------*/
+
+div.about h4 {
+    font-size: 48px;
+}
+
+div.about {
+    font-size: 20px;
+}
+
+div.about h4 {
+    font-weight: 300;
+}
+
+div.about h4 span {
+    font-weight: 400;
+    color: #2A9D8F;
+}
+
+div.btn-initial .menu {
+    background-color: #E76F51;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+div.icons ion-icon {
+    font-size: 50px;
+    margin-bottom: 8px;
+}

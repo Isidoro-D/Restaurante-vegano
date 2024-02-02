@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------*/
+/*---- BODY ----*/
+/*-------------*/
+
+div.main-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*------------------*/
+/*---- TOP-BAR ----*/
+/*----------------*/
+
+div.top-bar {
+    width: 100%;
+    margin: 16px 0;
+    background-color: rgb(87, 220, 224);
+}
+
+nav.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*---------------------*/
+/*---- FIRST-PAGE ----*/
+/*--------------------*/
+
+section.firstPage {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.about {
+    width: 50%;
+    margin-top: 10%;
+}
+
+div.btn-initial {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+div.btn-initial p {
+    padding: 8px 20px;
+    margin: 0 20px;
+}
+
+div.about .menu {
+    
+}
+
+div.banner {
+    width: 50%;
+}
+
+div.banner img {
+    width: 500px;
+    height: 650px;
+}
+
+div.icons {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 50px;
+}
