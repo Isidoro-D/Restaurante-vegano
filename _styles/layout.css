@@ -7,9 +7,14 @@
 /*---- BODY ----*/
 /*-------------*/
 
+/* body {
+    background-color: #ffff;
+}
+ */
 div.main-container {
     width: 1440px;
     margin: 0 auto;
+    /*background-color: #f1f1f1;*/
 }
 
 /*------------------*/
@@ -17,9 +22,7 @@ div.main-container {
 /*----------------*/
 
 div.top-bar {
-    width: 100%;
-    margin: 16px 0;
-    background-color: rgb(87, 220, 224);
+    padding: 16px 0;
 }
 
 nav.menu ul {
@@ -50,21 +53,7 @@ div.btn-initial {
 }
 
 div.btn-initial p {
-    padding: 8px 20px;
     margin: 0 20px;
-}
-
-div.about .menu {
-    
-}
-
-div.banner {
-    width: 50%;
-}
-
-div.banner img {
-    width: 500px;
-    height: 650px;
 }
 
 div.icons {
@@ -75,4 +64,83 @@ div.icons {
     justify-content: space-around;
     text-align: center;
     padding: 0 50px;
+}
+
+div.icons ion-icon {
+    padding: 0 40px;
+}
+
+div.icons .leaf, .rocket {
+    border-right: 1px solid #000;
+
+}
+
+div.banner {
+    width: 50%;
+    position: relative;
+}
+
+div.banner img {
+    width: 550px;
+    height: 750px;
+}
+
+div.banner .arrow1 {
+    position: absolute;
+    padding: 0 20px;
+    bottom: 2%;
+    left: 10%;
+    font-size: 3em;
+    background-color: rgba(0,0,0,0.3);
+    color: #f1f1f1ab;
+    cursor: pointer;
+}
+
+div.banner .arrow2{
+    position: absolute;
+    padding: 0 20px;
+    bottom: 2%;
+    right: 35%;
+    font-size: 3em;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    color: #f1f1f1ab;
+}
+
+/*-------------------------*/
+/*---- ESPECIALIDADES ----*/
+/*-----------------------*/
+
+section.especialidades {
+    padding: 90px 0;
+}
+
+div.sobremesa {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 87px;
+}
+
+div.yogurt {
+    width: 30%;
+    margin-top: 10%;
+}
+
+div.yogurtpic {
+    width: 50%;
+}
+
+div.almoco {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div.sopa {
+    width: 30%;
+    margin-top: 10%;
+}
+
+div.sopaimg {
+    width: 30%;
 }
