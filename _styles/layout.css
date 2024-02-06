@@ -91,18 +91,18 @@ div.banner .arrow1 {
     bottom: 2%;
     left: 10%;
     font-size: 3em;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #f1f1f1ab;
     cursor: pointer;
 }
 
-div.banner .arrow2{
+div.banner .arrow2 {
     position: absolute;
     padding: 0 20px;
     bottom: 2%;
     right: 35%;
     font-size: 3em;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
     color: #f1f1f1ab;
 }
@@ -143,4 +143,57 @@ div.sopa {
 
 div.sopaimg {
     width: 30%;
+}
+
+/*---------------*/
+/*---- MENU ----*/
+/*-------------*/
+
+div.cardapio {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div.cafe div.cafe-com-leite span, div.janta div.cafe-com-leite span, div.almocar div.cafe-com-leite span  {
+    display: flex;
+}
+
+div.cafe-com-leite img {
+    border-radius: 100%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+div.cardapio div.dash {
+    border-bottom: 1px dotted    #000;
+}
+
+/*-----------------*/
+/*---- FOOTER ----*/
+/*---------------*/
+
+footer {
+    width: 100%;
+    background-color: #333;
+}
+
+footer .info-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 59px 118px;
+}
+
+footer .info-footer .sobre-footer {
+    width: 32%;
+}
+
+footer .info-footer .horarios {
+    width: 32%;
+}
+
+footer .info-footer .direcao {
+    width: 32%;
 }

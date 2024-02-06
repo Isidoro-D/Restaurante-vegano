@@ -125,7 +125,7 @@ div.yogurt h4 {
     font-size: 24px;
     font-weight: 400;
     text-align: start;
-    
+
 }
 
 div.yogurt h5 {
@@ -133,7 +133,7 @@ div.yogurt h5 {
     font-weight: 400;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    
+
     margin: 0 auto;
     padding: 25px 0;
     margin-bottom: 30px;
@@ -181,7 +181,7 @@ div.sopa h5 {
     font-weight: 400;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    
+
     margin: 0 auto;
     padding: 25px 0;
     margin-bottom: 30px;
@@ -210,4 +210,93 @@ div.sopa a {
 div.sopa a:hover {
     background-color: #115b53;
     transition: 0.4s;
+}
+
+/*---------------*/
+/*---- MENU ----*/
+/*-------------*/
+
+section.menu h2 {
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+section.menu h4 {
+    font-size: 24px;
+    color: #E76F51;
+    font-weight: 400;
+    margin-bottom: 76px;
+}
+
+section.menu h5 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+section.menu h6 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+section.menu span p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+section.menu p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.cafe-com-leite {
+    text-align: center;
+    padding: 45px 0;
+}
+
+div.cardapio div.cafe-com-leite {
+    line-height: 50px;
+}
+
+/*-----------------*/
+/*---- FOOTER ----*/
+/*---------------*/
+
+footer .info-footer h2 {
+    font-size: 96px;
+    text-align: start;
+    color: #ffff;
+    font-weight: 400;
+}
+
+footer .info-footer p, li, ion-icon {
+    color: #ffff;
+    font-weight: 300;
+}
+
+footer .info-footer p {
+    text-align: start;
+    padding: 45px 0;
+}
+
+footer .info-footer .redes-sociais ion-icon {
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+footer .info-footer h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E76F51;
+    border-bottom: 1px solid #ffff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer div.horarios ul li {
+    line-height: 50px;
 }
