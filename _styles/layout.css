@@ -156,7 +156,7 @@ div.cardapio {
     justify-content: space-around;
 }
 
-div.cafe div.cafe-com-leite span, div.janta div.cafe-com-leite span, div.almocar div.cafe-com-leite span  {
+div.cafe div.cafe-com-leite span, div.janta div.cafe-com-leite span, div.almocar div.cafe-com-leite span {
     display: flex;
 }
 
@@ -167,7 +167,7 @@ div.cafe-com-leite img {
 }
 
 div.cardapio div.dash {
-    border-bottom: 1px dotted    #000;
+    border-bottom: 1px dotted #000;
 }
 
 /*-----------------*/
@@ -187,13 +187,33 @@ footer .info-footer {
 }
 
 footer .info-footer .sobre-footer {
-    width: 32%;
+    width: 35%;
 }
 
 footer .info-footer .horarios {
-    width: 32%;
+    width: 35%;
 }
 
 footer .info-footer .direcao {
-    width: 32%;
+    width: 35%;
+}
+
+footer .tel {
+    padding: 20px 0;
+}
+
+footer div.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+footer div.mapa {
+    width: 100%;
+    height: 300px;
+}
+
+footer div.direcao div.location {
+    display: flex;
+    justify-content: start;
 }

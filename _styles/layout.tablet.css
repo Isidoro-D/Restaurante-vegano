@@ -1,0 +1,78 @@
+div.main-container {
+    width: 80%;
+}
+
+/*---------------------*/
+/*---- FIRST-PAGE ----*/
+/*--------------------*/
+
+section.firstPage {
+    display: block;
+}
+
+section.firstPage div.about {
+    text-align: center;
+    width: 100%;
+}
+
+section.firstPage div.banner {
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+div.banner img {
+    width: 342px;
+    height: 516px;
+}
+
+div.banner {
+    position: relative;
+}
+
+div.banner .arrow1 {
+    position: absolute;
+    padding: 0 16px;
+    bottom: 2%;
+    left: 54%;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1ab;
+    cursor: pointer;
+}
+
+div.banner .arrow2 {
+    position: absolute;
+    padding: 0 16px;
+    bottom: 2%;
+    right: 30%;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    color: #f1f1f1ab;
+}
+
+/*-------------------------*/
+/*---- ESPECIALIDADES ----*/
+/*-----------------------*/
+
+div.sobremesa, div.almoco {
+    display: block;
+    width: 100%;
+}
+
+div.sobremesa div.yogurt {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.sobremesa div.yogurt .solicitacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sobremesa div.yogurt a, p {
+    
+    
+}

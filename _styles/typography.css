@@ -271,20 +271,26 @@ footer .info-footer h2 {
     font-weight: 400;
 }
 
-footer .info-footer p, li, ion-icon {
+footer .info-footer p, footer .info-footer li {
     color: #ffff;
     font-weight: 300;
 }
 
-footer .info-footer p {
+footer .info-footer .sobre-footer p {
     text-align: start;
     padding: 45px 0;
 }
 
 footer .info-footer .redes-sociais ion-icon {
+    color: #ffff;
     font-size: 50px;
     padding: 20px;
     cursor: pointer;
+}
+
+footer .info-footer .redes-sociais ion-icon:hover {
+    color: #E76F51;
+    transition: 0.5s;
 }
 
 footer .info-footer h4 {
@@ -299,4 +305,55 @@ footer .info-footer h4 {
 
 footer div.horarios ul li {
     line-height: 50px;
+    list-style: none;
+}
+
+footer .tel ion-icon {
+    color: #ffff;
+    font-size: 30px;
+    margin-right: 8px;
+    margin-bottom: -8px;
+}
+
+footer .tel a:hover {
+    color: #E76F51;
+    transition: 0.5s;
+}
+
+footer .tel a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+footer .direcao h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E76F51;
+    border-bottom: 1px solid #ffff;
+    width: 40%;
+    text-align: start;
+    padding: 10px;
+}
+
+footer .direcao ion-icon {
+    color: #ffff;
+    font-size: 35px;
+}
+
+footer .direcao div.location p {
+    font-size: 18px;
+}
+
+footer .direcao div.location {
+    padding: 20px 0;
+}
+
+footer p {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    padding: 16px;
 }
